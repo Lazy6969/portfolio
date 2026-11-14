@@ -96,11 +96,6 @@ h2 .ch{display:inline-block;transform-origin:50% 100%}
 .particles{position:absolute;inset:0;z-index:0}
 .particles canvas{width:100%!important;height:100%!important}
 .band .blobs{z-index:0}
-/* ===== Globe 3D ===== */
-.globe{position:relative;height:380px;margin-top:60px;border-radius:28px;background:radial-gradient(circle at 50% 50%,#ffd60a14,transparent 70%);border:1px solid #ffffff12;cursor:grab}
-.globe:active{cursor:grabbing}
-.globe canvas{border-radius:28px}
-.globe>span{position:absolute;bottom:14px;left:0;right:0;text-align:center;color:var(--mut);font-size:.8rem;pointer-events:none}
 /* ===== Loader Lottie ===== */
 .loader{position:fixed;inset:0;background:#0c0c0d;z-index:500;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px}
 .loader p{color:var(--y);font-size:1.1rem}

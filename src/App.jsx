@@ -1,4 +1,4 @@
-import { lazy, Suspense, useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { ParticlesProvider } from '@tsparticles/react'
 import { loadSlim } from '@tsparticles/slim'
 import { BrowserRouter, Link, Route, Routes, useLocation, useNavigate } from 'react-router-dom'
@@ -9,7 +9,6 @@ import SplitTitle from './components/SplitTitle.jsx'
 import BandParticles from './components/Particles.jsx'
 import Loader from './components/Loader.jsx'
 import Project from './pages/Project.jsx'
-const Globe3D = lazy(() => import('./components/Globe3D.jsx'))
 import { projects, skills, contacts, slug, GH } from './data.js'
 import { LangProvider, LANGS, useLang, bold } from './i18n.jsx'
 
@@ -124,12 +123,6 @@ function Home() {
             ))}
           </div>
         </div>
-        <Reveal>
-          <div className="globe">
-            <Suspense fallback={<p className="mono">{t.loading3d}</p>}><Globe3D /></Suspense>
-            <span className="mono">{t.drag}</span>
-          </div>
-        </Reveal>
       </section>
 
       <div className="band"><Blobs /><BandParticles id="p1" /><section id="skills">
