@@ -1,5 +1,6 @@
 export const GH = 'https://github.com/Lazy6969'
 export const projects = [
+  { name: "Fandrik'i Mirindra", desc: 'Jeu 3D malgache pour Android : 80 niveaux, 25 personnages.', stack: ['Three.js', 'Capacitor', 'JavaScript'], url: `${GH}/fandrik-i-mirindra`, featured: true },
   { name: 'Gôna Vibe', desc: 'Plateforme musicale full-stack.', stack: ['Laravel', 'Inertia', 'React'], url: `${GH}/gona-vibe`, featured: true },
   { name: 'Mirindra Funding', desc: 'Financement participatif pour les projets de classe.', stack: ['PHP'], url: `${GH}/Mirindra_Funding`, featured: true },
   { name: 'Site ISSTM', desc: "Nouvelle version du site de l'établissement.", stack: ['JavaScript'], url: `${GH}/site-isstm` },

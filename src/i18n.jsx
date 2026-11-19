@@ -21,6 +21,7 @@ const dict = {
     back: '← Tous les projets', source: 'Code source ↗', live: 'Voir en ligne ↗', notFound: 'Projet introuvable.',
     desc: {
       'gona-vibe': 'Plateforme musicale full-stack.',
+      'fandrik-i-mirindra': "Jeu 3D malgache pour Android : 80 niveaux, 25 personnages, pièges cachés.",
       'mirindra-funding': 'Financement participatif pour les projets de classe.',
       'site-isstm': "Nouvelle version du site de l'établissement.",
       'game-lazy': 'Jeu web interactif.',
@@ -48,6 +49,7 @@ const dict = {
     back: '← Tetikasa rehetra', source: 'Kaody loharano ↗', live: 'Hijery an-tserasera ↗', notFound: 'Tsy hita ny tetikasa.',
     desc: {
       'gona-vibe': 'Sehatra mozika full-stack.',
+      'fandrik-i-mirindra': "Lalao 3D malagasy ho an'ny Android : dingana 80, biby 25, fandrika miafina.",
       'mirindra-funding': "Famatsiam-bola iombonana ho an'ny tetikasan'ny kilasy.",
       'site-isstm': "Dikan-teny vaovao amin'ny tranokalan'ny sekoly.",
       'game-lazy': "Lalao interactive amin'ny web.",
@@ -75,6 +77,7 @@ const dict = {
     back: '← All projects', source: 'Source code ↗', live: 'View live ↗', notFound: 'Project not found.',
     desc: {
       'gona-vibe': 'Full-stack music platform.',
+      'fandrik-i-mirindra': "Malagasy 3D game for Android: 80 levels, 25 characters, hidden traps.",
       'mirindra-funding': 'Crowdfunding for class projects.',
       'site-isstm': 'New version of the school website.',
       'game-lazy': 'Interactive web game.',
